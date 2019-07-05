@@ -1,22 +1,35 @@
-# Bagheera's Pizzeria
+# APP NAME
 
-#### _A web site for ordering pizza - June 21, 2019_
+#### _DESCRIPTION - BUILD DATE_
 
 #### _By **Na Hyung Choi**_
 
 ## Description
 
-On this web site, the user can choose toppings, crust, and a size for one or more pizzas, see the details of the order and the final cost, and "place an order."
+DETAILED DESCRIPTION
 
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **Creates a new pizza through a constructor** | var pizza1 = new Pizza ("large", ["cheese", "sausage"]) | pizza1 = { size : "large", toppings: ["cheese", "sausage"], cost: undefined} |
+| **BEHAVIOR** | INPUT | OUTPUT |
 
 ## Setup/Installation Requirements
 
-* Clone this repository and open the .html file.
-* OR go directly to the [Web page](http://schoinh.github.io/pizza)
+1. Clone this repository:
+    ```
+    $ git clone REPO URL
+    ```
+2. Install dependencies:
+    ```
+    $ npm install
+    ```
+3. Build distribution files:
+    ```
+    $ npm run build
+    ```
+4. Open the web page (dist/index.html)
+
+* OR go directly to the [Web page](http://schoinh.github.io/XXXXXXX)
 
 ## Known Bugs
 * No known bugs at this time.
@@ -25,6 +38,11 @@ On this web site, the user can choose toppings, crust, and a size for one or mor
 * JavaScript
 * jQuery
 * Bootstrap
+* Jasmine/Karma
+* ESLint
+* Babel
+* webpack
+* npm
 
 ## Support and contact details
 
