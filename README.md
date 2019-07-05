@@ -17,17 +17,26 @@ DETAILED DESCRIPTION
 
 1. Clone this repository:
     ```
-    $ git clone REPO URL
+    $ git clone REPO URL HERE
     ```
 2. Install dependencies:
     ```
     $ npm install
     ```
-3. Build distribution files:
+3. Get an API key from the [NAME OF API SITE] (URL OF API SITE)
+4. Create a file named ".env" inside the project directory:
+    ```
+    $ touch .env
+    ```
+5. Inside ".env", insert this line and save the file:
+    ```
+    exports.apiKey = YOUR API KEY HERE
+    ```
+6. Build distribution files:
     ```
     $ npm run build
     ```
-4. Open the web page (dist/index.html)
+7. Open the web page (dist/index.html)
 
 * OR go directly to the [Web page](http://schoinh.github.io/XXXXXXX)
 
